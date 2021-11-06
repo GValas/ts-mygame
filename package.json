@@ -7,7 +7,8 @@
         "lint": "eslint src/** --ext .js,.ts",
         "webpack-build": "webpack",
         "webpack-serve": "webpack-dev-server",
-        "debug-me": "node src/debug-me.ts"
+        "run-main": "ts-node src/debug.ts",
+        "watch-main": "ts-node-dev --respawn src/debug.ts"
     },
     "keywords": [],
     "author": "",
@@ -23,6 +24,7 @@
         "prettier": "^2.0.5",
         "ts-loader": "^8.0.4",
         "ts-node": "^9.1.1",
+        "ts-node-dev": "^1.1.8",
         "typescript": "^3.9.7",
         "webpack": "^5.62.1",
         "webpack-cli": "^4.9.1",

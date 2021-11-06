@@ -5,8 +5,7 @@
     "main": "main.js",
     "scripts": {
         "lint": "eslint src/** --ext .js,.ts",
-        "webpack-build": "webpack",
-        "webpack-serve": "webpack-dev-server",
+        "webpack-build": "webpack --watch",
         "run-main": "ts-node src/debug.ts",
         "watch-main": "ts-node-dev --respawn src/debug.ts"
     },

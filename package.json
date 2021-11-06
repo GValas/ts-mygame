@@ -1,0 +1,31 @@
+{
+    "name": "ts-snake",
+    "version": "1.0.0",
+    "description": "",
+    "main": "main.js",
+    "scripts": {
+        "lint": "eslint src/** --ext .js,.ts",
+        "webpack-build": "webpack",
+        "webpack-serve": "webpack-dev-server",
+        "debug-me": "node src/debug-me.ts"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "",
+    "devDependencies": {
+        "@types/express": "^4.17.7",
+        "@typescript-eslint/eslint-plugin": "^3.8.0",
+        "@typescript-eslint/parser": "^3.8.0",
+        "eslint": "^7.7.0",
+        "eslint-config-prettier": "^6.11.0",
+        "eslint-plugin-prettier": "^3.1.4",
+        "express": "^4.17.1",
+        "prettier": "^2.0.5",
+        "ts-loader": "^8.0.4",
+        "ts-node": "^9.1.1",
+        "typescript": "^3.9.7",
+        "webpack": "^5.62.1",
+        "webpack-cli": "^4.9.1",
+        "webpack-dev-server": "^4.4.0"
+    }
+}
